@@ -1,0 +1,4 @@
+0. the dimensions that are in the range of [DIM_MIN,DIM_MAX] i.e, here [3,9] are allowed.
+1. The game's board is represented with the data structure Array.
+2. 'greet()" function is used to greet the user at the start of the game.
+3. The functions that are to be implemented are greet(),clear(),init(),draw(),move(),won().
