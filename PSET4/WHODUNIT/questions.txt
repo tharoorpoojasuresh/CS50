@@ -1,0 +1,12 @@
+1.  New data types are available from <stdint.h> header which are also defines in the <inttypes.h> header.
+2.  They are thet exact-width integer types which are guaranteed to have the same n number of bits throughout.
+3.  BYTE=1 BYTE, WORD=2 BYTES, DWORD=4 BYTES, LONG=4 BYTES.
+4.  The firat two bytes represent the file type. It should be BM.
+5.  bfSize denoted the size in bytes, of the bitmap file.biSize denotes the number of bytes required by the structure.
+6. If biHeight is negative,the bitmap is a top-down DIB and its origin is the upper-left corner.
+7.  biBitCount is the field that denotes the depth of the color i.e, bits per pixel.
+8.  It returns NULL if the file names are not provided in the arguments or if the filenames provided cannot be opened.
+9.  the third argument in fread is always 1 because the fread reads from file only for one time.
+10. The value assigned will be 3.
+11. fseek sets file position.
+12. SEEK_CURR is used to move to the current position of the file.
