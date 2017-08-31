@@ -1,0 +1,7 @@
+0. It is an invented long word said to mean a lung disease caused by inhaling very fine ash and sand dust.
+1.  getrusage provides all the resources required to obtain the benchmarks(different times) of the current process.
+2.  There are 4 variables in getrusage.
+3.  We are passing before and after in order to calculate the benchmarks of the process.
+4.  In the for loop, in if condition the index of the word array is filled by the character of the file if the character is alphabet or aphostrephe.If the index of the word is greater than the LENGTH then a new word is formed by making the index as 0.In the first else if condition , if the character of the file is a digit then a new word is formed by making the index to 0.In the second else if condition if there is some other character and if the index of the word is greater than 0 then thw word is considered to be completed and \0 is inserted in word and the number of words is incremented.
+5.  fgetc is used but not fscanf because fscanf terminates only by new line and that function cannot be used efficiently to trace the characters of the file for any length conditions. fgetc can be used to read the character one by one and to find the length and it also terminates by space and new line.
+6.  The parameters are defined as constant because the parameters are passed by reference. So if const is not declared to the parameters then there may be chances that the function can change the values of the parameters at their memory locations.
